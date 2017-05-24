@@ -1,0 +1,46 @@
+h1{
+	color: rgba(0%, 0%, 100%, 0.7);
+	font-family: "Oswald", sans-serif;
+	margin-bottom: 0;
+}
+
+h2{
+	color: grey;
+	font-family: "Oswald", sans-serif;
+	margin-top: 0;
+}
+
+.overlay{
+	background: rgba(0%, 100%, 0%, 0.5); 
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+}
+
+.overlay span{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: white;
+	font-size: 30px;
+}
+
+.red{
+	background: rgba(100%, 0%, 0%, 0.5);
+}
+
+.question{
+	position: relative;
+	padding: 15px;
+}
+
+body{
+	font-family: "Helvetica", sans-serif;
+}
+
+label{
+	display: block;
+}
